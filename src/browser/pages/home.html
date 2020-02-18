@@ -20,18 +20,23 @@
   </head>
   <body>
     <div class="center-container">
-      <div class="app-lists">
-        <div class="app-list">
+      <div class="info-blocks">
+        <div class="info-block">
           <h2 class="header">Running Applications</h2>
           {{APP_LIST:RUNNING}}
         </div>
 
-        <div class="app-list">
+        <div class="info-block">
+          <h2 class="header">Update</h2>
+          {{UPDATE:NAME}}
+        </div>
+
+        <div class="info-block">
           <h2 class="header">Editors</h2>
           {{APP_LIST:EDITORS}}
         </div>
 
-        <div class="app-list">
+        <div class="info-block">
           <h2 class="header">Other</h2>
           {{APP_LIST:OTHER}}
         </div>
